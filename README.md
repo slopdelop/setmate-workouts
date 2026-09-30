@@ -8,7 +8,7 @@ Choose a person, filter or add a machine, then enter weight and optionally reps.
 
 Profiles are Justin and Mabel. Existing records labeled You migrate to Justin automatically. Machines are sorted by the selected person's oldest last-use date, with unused machines first. Hide a machine from its detail view, then use Show hidden machines to restore it; history is preserved.
 
-HOIST and Other machines are separate filter options and separate histories even when names match. HOIST quick weights and +/- controls use previously recorded values rather than assume uniform increments. Other-machine suggestions use the last weight with adjacent 5 lb / 2.5 kg values. The weight field always accepts custom values.
+The full machine catalog is available on every installation, including HOIST machines. HOIST machines carry the supplied logo next to their names and keep separate histories from other machines with the same name. Search and muscle-group filters cover the entire list. HOIST quick weights and +/- controls use previously recorded values rather than assume uniform increments. Other-machine suggestions use the last weight with adjacent 5 lb / 2.5 kg values. The weight field always accepts custom values.
 
 Use the information button → Import workout file to load a local JSON notebook file on each device. Imports validate before saving and skip already imported set IDs. Notebook files and workout data are never bundled with the public app. Estimated handwriting is labeled in workout history.
 

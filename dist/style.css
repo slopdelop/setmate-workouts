@@ -5,3 +5,5 @@
 .hidden-toggle{background:transparent;border:0;color:var(--muted);font-size:14px;min-height:44px;padding:0 0 12px}.transcription{display:block;color:var(--muted);font-size:14px;line-height:1.5;margin-top:6px}
 
 .machine-code{width:52px;height:68px;border-radius:14px;background:#141c17}.muscle-icon{display:block;width:46px;height:63px}.body-shadow{fill:#526258;stroke:#7c8e81;stroke-width:1;stroke-linejoin:round}.muscle-highlight{fill:var(--lime)}.body-guide{fill:none;stroke:#27372e;stroke-width:1.3;stroke-linecap:round}
+
+.hoist-logo{display:inline-block;width:76px;height:24px;object-fit:cover;object-position:center;border-radius:4px;background:white;vertical-align:middle;margin-left:5px}.eyebrow .hoist-logo{width:88px;height:28px;margin-left:10px}
