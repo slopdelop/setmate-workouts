@@ -9,3 +9,5 @@
 .hoist-logo{display:inline-block;width:76px;height:24px;object-fit:cover;object-position:center;border-radius:4px;background:white;vertical-align:middle;margin-left:5px}.eyebrow .hoist-logo{width:88px;height:28px;margin-left:10px}
 
 .hoist-logo{object-fit:contain;background:transparent;border-radius:0}
+
+.reset-button{width:100%;min-height:56px;background:transparent;color:#ffc1aa;border:1px solid #8b5244;border-radius:13px;font-weight:700}dialog{width:calc(100% - 40px);max-width:440px;background:var(--panel);color:#f3f6f1;border:1px solid var(--line);border-radius:22px;padding:25px;box-shadow:0 15px 80px #0009}dialog::backdrop{background:#000b;backdrop-filter:blur(3px)}dialog h2{font-size:24px;line-height:1.25}dialog p{color:var(--muted);line-height:1.6}.dialog-actions{display:grid;gap:12px;margin-top:22px}.dialog-actions button{min-height:56px;border-radius:13px;font-weight:700}.cancel-reset{border:1px solid var(--line);background:#2c3830}.confirm-reset{border:0;background:#ffc1aa;color:#39190e}
