@@ -1,5 +1,5 @@
-const CACHE='setmate-shell-v11-'+self.registration.scope;
-const FILES=['./','./index.html','./style.css?v=11','./app.js?v=11','./default-data.js?v=11','./manifest.webmanifest','./favicon.svg','./icon-192.png','./icon-512.png','./panda-justin.png','./panda-mabel.png','./hoist-logo.png?v=11'];
+const CACHE='setmate-shell-v12-'+self.registration.scope;
+const FILES=['./','./index.html','./style.css?v=12','./app.js?v=12','./default-data.js?v=12','./manifest.webmanifest','./favicon.svg','./icon-192.png','./icon-512.png','./panda-justin.png','./panda-mabel.png','./hoist-logo.png?v=12'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>(k.endsWith(self.registration.scope)||k==='setmate-shell-v1')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
 self.addEventListener('fetch',event=>{const url=new URL(event.request.url);if(event.request.method!=='GET'||url.origin!==self.location.origin)return;if(event.request.mode==='navigate'){event.respondWith(fetch(event.request).then(response=>{if(response.ok){const copy=response.clone();event.waitUntil(caches.open(CACHE).then(c=>c.put('./index.html',copy)));}return response;}).catch(()=>caches.match('./index.html')));return;}event.respondWith(caches.match(event.request).then(cached=>cached||fetch(event.request)));});
