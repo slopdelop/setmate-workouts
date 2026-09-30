@@ -1,0 +1,8 @@
+{
+  "name": "setmate-backup",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-29",
+  "workers_dev": true,
+  "observability": { "enabled": false },
+  "d1_databases": [{ "binding": "DB", "database_name": "setmate-backups", "database_id": "a6de3f71-f6b5-4088-95a0-743fe894f458" }]
+}

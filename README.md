@@ -27,3 +27,5 @@ Run `node server.cjs` and open `http://127.0.0.1:4173/`.
 ## GitHub Pages
 
 The workflow in `.github/workflows/pages.yml` publishes `dist/` on pushes to `main`. In the repository's Settings → Pages, select GitHub Actions as the publishing source. All asset URLs and the manifest are relative, so the app works under a repository subdirectory.
+
+Optional private Cloudflare backup is available in the info menu. See cloud/README.md for deployment and access details. Local dev loads a separate read-only test copy. Uploads happen while the app is open and online.
